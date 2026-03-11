@@ -1,4 +1,4 @@
-PatientID,firstname,lastname,email
+patient_id,first_name,last_name,email
 919,Anallese,Halla,Anallese.Halla@yopmail.com
 535,Shel,Dearborn,Shel.Dearborn@yopmail.com
 830,Mara,Shuler,Mara.Shuler@yopmail.com

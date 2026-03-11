@@ -1,4 +1,4 @@
-ProcedureID,ProcedureName,AppointmentID
+procedure_id,procedure_name,appointment_id
 432,Kidney transplant,955
 574,Allergy testing,701
 854,Psychotherapy,363

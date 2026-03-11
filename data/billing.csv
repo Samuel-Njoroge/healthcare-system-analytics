@@ -1,4 +1,4 @@
-InvoiceID,PatientID,Items,Amount
+invoice_id,patient_id,invoiced_items,amount
 e9609dce-f125-4f65-a067-4760a06e60b6,894,Immunizations,956065
 fb593fb6-466a-4dc8-9a61-afbd9d4b5031,448,Cataract surgery,188997
 6fecc813-a9aa-4a89-97b5-079f3842eeeb,618,Pediatric surgery,524091

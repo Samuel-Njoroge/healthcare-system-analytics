@@ -1,4 +1,4 @@
-AppointmentID,Date,Time,PatientID,DoctorID
+appointment_id,appointment_date,appointment_time,patient_id,doctor_id
 639,2022-04-08,2023-12-23T14:33:46.406Z,109,462
 404,2023-04-10,2023-12-23T14:33:46.407Z,823,774
 281,2022-12-09,2023-12-23T14:33:46.407Z,465,226
