@@ -1,7 +1,5 @@
 # Healthcare System Analytics
 
-Healthcare Data -> **Snowflake** -> **dbt** -> **Apache Superset**
-
 ## 1. Problem Statement
 
 Healthcare operations generate data across patients, providers, appointments, procedures, and billing. Raw data is rarely analytics-ready: it needs consistent schemas, standardized types, tested transformations, and a curated layer for BI.
@@ -25,23 +23,9 @@ Examples of questions the modeled layer can support:
 
 ## 3. Data Model Layers
 
-### Overall flow
+### Flow
 
-```text
-            (Kaggle / local CSVs)
-                    |
-                    v
-            Snowflake: ANALYTICS.RAW
-                    |
-                    v
-          dbt models (staging/intermediate/marts)
-                    |
-                    v
-      Snowflake: ANALYTICS.{STAGING|INTERMEDIATE|MARTS}
-                    |
-                    v
-           Apache Superset dashboards
-```
+![](./assets/architecture.svg)
 
 ### Raw layer (Snowflake)
 
