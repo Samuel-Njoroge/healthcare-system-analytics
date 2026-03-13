@@ -25,7 +25,7 @@ Examples of questions the modeled layer can support:
 
 ### Flow
 
-![](./assets/architecture.svg)
+![](./assets/arch.svg)
 
 ### Raw layer (Snowflake)
 
